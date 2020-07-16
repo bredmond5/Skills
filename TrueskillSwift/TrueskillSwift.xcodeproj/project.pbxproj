@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42497DEE24BFF05500609401 /* FactorGraphTrueskillCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DED24BFF05500609401 /* FactorGraphTrueskillCalculatorTests.swift */; };
+		42497DF224C0023D00609401 /* DrawMarginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DF124C0023D00609401 /* DrawMarginTests.swift */; };
+		42497DF424C00E0D00609401 /* FactorGraphTrueskillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DF324C00E0D00609401 /* FactorGraphTrueskillCalculator.swift */; };
+		42497DF524C00E0D00609401 /* FactorGraphTrueskillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DF324C00E0D00609401 /* FactorGraphTrueskillCalculator.swift */; };
+		42497DF724C0EE7600609401 /* TrueskillFactorGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DF624C0EE7600609401 /* TrueskillFactorGraph.swift */; };
+		42497DF824C0EE7600609401 /* TrueskillFactorGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42497DF624C0EE7600609401 /* TrueskillFactorGraph.swift */; };
+		4253AB3124561A6E003E3063 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253AB3024561A6E003E3063 /* main.swift */; };
+		425A9CDD24B53873008B76B0 /* PairwiseComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CDC24B53873008B76B0 /* PairwiseComparison.swift */; };
+		425A9CDE24B53873008B76B0 /* PairwiseComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CDC24B53873008B76B0 /* PairwiseComparison.swift */; };
+		425A9CE024B53A29008B76B0 /* DrawMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CDF24B53A29008B76B0 /* DrawMargin.swift */; };
+		425A9CE124B53A29008B76B0 /* DrawMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CDF24B53A29008B76B0 /* DrawMargin.swift */; };
+		425A9CE324B53A7F008B76B0 /* GaussianDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CE224B53A7F008B76B0 /* GaussianDistribution.swift */; };
+		425A9CE424B53A7F008B76B0 /* GaussianDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CE224B53A7F008B76B0 /* GaussianDistribution.swift */; };
+		425A9CE924B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CE824B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift */; };
+		425A9CEA24B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CE824B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift */; };
+		425A9CEC24B66844008B76B0 /* TwoPlayerTrueSkillCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CEB24B66844008B76B0 /* TwoPlayerTrueSkillCalculatorTest.swift */; };
+		425A9CF024B66A93008B76B0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CEF24B66A93008B76B0 /* Team.swift */; };
+		425A9CF124B66A93008B76B0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CEF24B66A93008B76B0 /* Team.swift */; };
+		425A9CF324B69D82008B76B0 /* GaussianDistributionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CF224B69D82008B76B0 /* GaussianDistributionTests.swift */; };
+		425A9CF524BBD3CC008B76B0 /* TwoTeamTrueskillCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CF424BBD3CC008B76B0 /* TwoTeamTrueskillCalculatorTests.swift */; };
+		425A9CF724BBD3EE008B76B0 /* RankSorterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A9CF624BBD3EE008B76B0 /* RankSorterTest.swift */; };
+		429AD90A24B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AD90924B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift */; };
+		429AD90B24B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AD90924B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift */; };
+		42B8023E245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8023D245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift */; };
+		42B80240245691CA00C00EA1 /* TwoPlayerTrueSkillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8023D245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift */; };
+		42B80242245691ED00C00EA1 /* SkillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B80241245691ED00C00EA1 /* SkillCalculator.swift */; };
+		42B80243245691ED00C00EA1 /* SkillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B80241245691ED00C00EA1 /* SkillCalculator.swift */; };
+		42B80245245696D700C00EA1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B80244245696D700C00EA1 /* Player.swift */; };
+		42B80246245696D700C00EA1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B80244245696D700C00EA1 /* Player.swift */; };
+		42B802482456979D00C00EA1 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B802472456979D00C00EA1 /* Rating.swift */; };
+		42B802492456979D00C00EA1 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B802472456979D00C00EA1 /* Rating.swift */; };
+		42B8024E2456A0D900C00EA1 /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8024D2456A0D900C00EA1 /* GameInfo.swift */; };
+		42B8024F2456A0D900C00EA1 /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8024D2456A0D900C00EA1 /* GameInfo.swift */; };
+		42F82E3224B3B50000E05865 /* PlayersRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3124B3B50000E05865 /* PlayersRange.swift */; };
+		42F82E3324B3B50000E05865 /* PlayersRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3124B3B50000E05865 /* PlayersRange.swift */; };
+		42F82E3524B3B53500E05865 /* TeamsRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3424B3B53500E05865 /* TeamsRange.swift */; };
+		42F82E3624B3B53500E05865 /* TeamsRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3424B3B53500E05865 /* TeamsRange.swift */; };
+		42F82E3824B3B54D00E05865 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3724B3B54D00E05865 /* Range.swift */; };
+		42F82E3924B3B54D00E05865 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3724B3B54D00E05865 /* Range.swift */; };
+		42F82E3D24B3FC9900E05865 /* RankSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3C24B3FC9900E05865 /* RankSorter.swift */; };
+		42F82E3E24B3FC9900E05865 /* RankSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F82E3C24B3FC9900E05865 /* RankSorter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4253AB2B24561A6E003E3063 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42497DED24BFF05500609401 /* FactorGraphTrueskillCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorGraphTrueskillCalculatorTests.swift; sourceTree = "<group>"; };
+		42497DF124C0023D00609401 /* DrawMarginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMarginTests.swift; sourceTree = "<group>"; };
+		42497DF324C00E0D00609401 /* FactorGraphTrueskillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorGraphTrueskillCalculator.swift; sourceTree = "<group>"; };
+		42497DF624C0EE7600609401 /* TrueskillFactorGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueskillFactorGraph.swift; sourceTree = "<group>"; };
+		4253AB2D24561A6E003E3063 /* TrueskillSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrueskillSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		4253AB3024561A6E003E3063 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4253AB3B24561AA1003E3063 /* TrueskillSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueskillSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4253AB3F24561AA1003E3063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425A9CDC24B53873008B76B0 /* PairwiseComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairwiseComparison.swift; sourceTree = "<group>"; };
+		425A9CDF24B53A29008B76B0 /* DrawMargin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMargin.swift; sourceTree = "<group>"; };
+		425A9CE224B53A7F008B76B0 /* GaussianDistribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussianDistribution.swift; sourceTree = "<group>"; };
+		425A9CE824B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TruncatedGaussianCorrectionFunctions.swift; path = ../TruncatedGaussianCorrectionFunctions.swift; sourceTree = "<group>"; };
+		425A9CEB24B66844008B76B0 /* TwoPlayerTrueSkillCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerTrueSkillCalculatorTest.swift; sourceTree = "<group>"; };
+		425A9CEF24B66A93008B76B0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		425A9CF224B69D82008B76B0 /* GaussianDistributionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussianDistributionTests.swift; sourceTree = "<group>"; };
+		425A9CF424BBD3CC008B76B0 /* TwoTeamTrueskillCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTeamTrueskillCalculatorTests.swift; sourceTree = "<group>"; };
+		425A9CF624BBD3EE008B76B0 /* RankSorterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankSorterTest.swift; sourceTree = "<group>"; };
+		429AD90924B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTeamTrueskillCalculator.swift; sourceTree = "<group>"; };
+		42B8023D245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerTrueSkillCalculator.swift; sourceTree = "<group>"; };
+		42B80241245691ED00C00EA1 /* SkillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCalculator.swift; sourceTree = "<group>"; };
+		42B80244245696D700C00EA1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		42B802472456979D00C00EA1 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		42B8024D2456A0D900C00EA1 /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameInfo.swift; path = ../GameInfo.swift; sourceTree = "<group>"; };
+		42F82E3124B3B50000E05865 /* PlayersRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersRange.swift; sourceTree = "<group>"; };
+		42F82E3424B3B53500E05865 /* TeamsRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsRange.swift; sourceTree = "<group>"; };
+		42F82E3724B3B54D00E05865 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		42F82E3C24B3FC9900E05865 /* RankSorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankSorter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4253AB2A24561A6E003E3063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4253AB3824561AA1003E3063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4253AB2424561A6E003E3063 = {
+			isa = PBXGroup;
+			children = (
+				4253AB2F24561A6E003E3063 /* TrueskillSwift */,
+				4253AB3C24561AA1003E3063 /* TrueskillSwiftTests */,
+				4253AB2E24561A6E003E3063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4253AB2E24561A6E003E3063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4253AB2D24561A6E003E3063 /* TrueskillSwift */,
+				4253AB3B24561AA1003E3063 /* TrueskillSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4253AB2F24561A6E003E3063 /* TrueskillSwift */ = {
+			isa = PBXGroup;
+			children = (
+				42B80241245691ED00C00EA1 /* SkillCalculator.swift */,
+				42B8023D245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift */,
+				429AD90924B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift */,
+				42497DF324C00E0D00609401 /* FactorGraphTrueskillCalculator.swift */,
+				42497DF624C0EE7600609401 /* TrueskillFactorGraph.swift */,
+				425A9CDF24B53A29008B76B0 /* DrawMargin.swift */,
+				425A9CE824B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift */,
+				42F82E3124B3B50000E05865 /* PlayersRange.swift */,
+				42F82E3424B3B53500E05865 /* TeamsRange.swift */,
+				42F82E3C24B3FC9900E05865 /* RankSorter.swift */,
+				42F82E3724B3B54D00E05865 /* Range.swift */,
+				425A9CE224B53A7F008B76B0 /* GaussianDistribution.swift */,
+				42B8024D2456A0D900C00EA1 /* GameInfo.swift */,
+				425A9CEF24B66A93008B76B0 /* Team.swift */,
+				42B80244245696D700C00EA1 /* Player.swift */,
+				42B802472456979D00C00EA1 /* Rating.swift */,
+				425A9CDC24B53873008B76B0 /* PairwiseComparison.swift */,
+				4253AB3024561A6E003E3063 /* main.swift */,
+			);
+			path = TrueskillSwift;
+			sourceTree = "<group>";
+		};
+		4253AB3C24561AA1003E3063 /* TrueskillSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				425A9CEB24B66844008B76B0 /* TwoPlayerTrueSkillCalculatorTest.swift */,
+				425A9CF424BBD3CC008B76B0 /* TwoTeamTrueskillCalculatorTests.swift */,
+				42497DED24BFF05500609401 /* FactorGraphTrueskillCalculatorTests.swift */,
+				425A9CF624BBD3EE008B76B0 /* RankSorterTest.swift */,
+				42497DF124C0023D00609401 /* DrawMarginTests.swift */,
+				425A9CF224B69D82008B76B0 /* GaussianDistributionTests.swift */,
+				4253AB3F24561AA1003E3063 /* Info.plist */,
+			);
+			path = TrueskillSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4253AB2C24561A6E003E3063 /* TrueskillSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4253AB3424561A6E003E3063 /* Build configuration list for PBXNativeTarget "TrueskillSwift" */;
+			buildPhases = (
+				4253AB2924561A6E003E3063 /* Sources */,
+				4253AB2A24561A6E003E3063 /* Frameworks */,
+				4253AB2B24561A6E003E3063 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueskillSwift;
+			productName = TrueskillSwift;
+			productReference = 4253AB2D24561A6E003E3063 /* TrueskillSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+		4253AB3A24561AA1003E3063 /* TrueskillSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4253AB4024561AA1003E3063 /* Build configuration list for PBXNativeTarget "TrueskillSwiftTests" */;
+			buildPhases = (
+				4253AB3724561AA1003E3063 /* Sources */,
+				4253AB3824561AA1003E3063 /* Frameworks */,
+				4253AB3924561AA1003E3063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueskillSwiftTests;
+			productName = TrueskillSwiftTests;
+			productReference = 4253AB3B24561AA1003E3063 /* TrueskillSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4253AB2524561A6E003E3063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Brice Redmond";
+				TargetAttributes = {
+					4253AB2C24561A6E003E3063 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4253AB3A24561AA1003E3063 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 4253AB2824561A6E003E3063 /* Build configuration list for PBXProject "TrueskillSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4253AB2424561A6E003E3063;
+			productRefGroup = 4253AB2E24561A6E003E3063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4253AB2C24561A6E003E3063 /* TrueskillSwift */,
+				4253AB3A24561AA1003E3063 /* TrueskillSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4253AB3924561AA1003E3063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4253AB2924561A6E003E3063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429AD90A24B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift in Sources */,
+				42B80245245696D700C00EA1 /* Player.swift in Sources */,
+				42F82E3224B3B50000E05865 /* PlayersRange.swift in Sources */,
+				4253AB3124561A6E003E3063 /* main.swift in Sources */,
+				42B802482456979D00C00EA1 /* Rating.swift in Sources */,
+				42B8023E245691C400C00EA1 /* TwoPlayerTrueSkillCalculator.swift in Sources */,
+				425A9CE024B53A29008B76B0 /* DrawMargin.swift in Sources */,
+				42F82E3524B3B53500E05865 /* TeamsRange.swift in Sources */,
+				42B80242245691ED00C00EA1 /* SkillCalculator.swift in Sources */,
+				42F82E3D24B3FC9900E05865 /* RankSorter.swift in Sources */,
+				42497DF424C00E0D00609401 /* FactorGraphTrueskillCalculator.swift in Sources */,
+				425A9CE924B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift in Sources */,
+				42B8024E2456A0D900C00EA1 /* GameInfo.swift in Sources */,
+				425A9CF024B66A93008B76B0 /* Team.swift in Sources */,
+				425A9CDD24B53873008B76B0 /* PairwiseComparison.swift in Sources */,
+				425A9CE324B53A7F008B76B0 /* GaussianDistribution.swift in Sources */,
+				42F82E3824B3B54D00E05865 /* Range.swift in Sources */,
+				42497DF724C0EE7600609401 /* TrueskillFactorGraph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4253AB3724561AA1003E3063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42497DF224C0023D00609401 /* DrawMarginTests.swift in Sources */,
+				42497DF524C00E0D00609401 /* FactorGraphTrueskillCalculator.swift in Sources */,
+				429AD90B24B3A42400E67A39 /* TwoTeamTrueskillCalculator.swift in Sources */,
+				425A9CEC24B66844008B76B0 /* TwoPlayerTrueSkillCalculatorTest.swift in Sources */,
+				42B80246245696D700C00EA1 /* Player.swift in Sources */,
+				42497DF824C0EE7600609401 /* TrueskillFactorGraph.swift in Sources */,
+				42497DEE24BFF05500609401 /* FactorGraphTrueskillCalculatorTests.swift in Sources */,
+				42F82E3324B3B50000E05865 /* PlayersRange.swift in Sources */,
+				42B802492456979D00C00EA1 /* Rating.swift in Sources */,
+				42B80240245691CA00C00EA1 /* TwoPlayerTrueSkillCalculator.swift in Sources */,
+				425A9CE124B53A29008B76B0 /* DrawMargin.swift in Sources */,
+				425A9CF124B66A93008B76B0 /* Team.swift in Sources */,
+				42F82E3624B3B53500E05865 /* TeamsRange.swift in Sources */,
+				425A9CF324B69D82008B76B0 /* GaussianDistributionTests.swift in Sources */,
+				42B80243245691ED00C00EA1 /* SkillCalculator.swift in Sources */,
+				42F82E3E24B3FC9900E05865 /* RankSorter.swift in Sources */,
+				425A9CEA24B648CB008B76B0 /* TruncatedGaussianCorrectionFunctions.swift in Sources */,
+				42B8024F2456A0D900C00EA1 /* GameInfo.swift in Sources */,
+				425A9CDE24B53873008B76B0 /* PairwiseComparison.swift in Sources */,
+				425A9CE424B53A7F008B76B0 /* GaussianDistribution.swift in Sources */,
+				42F82E3924B3B54D00E05865 /* Range.swift in Sources */,
+				425A9CF724BBD3EE008B76B0 /* RankSorterTest.swift in Sources */,
+				425A9CF524BBD3CC008B76B0 /* TwoTeamTrueskillCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4253AB3224561A6E003E3063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4253AB3324561A6E003E3063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4253AB3524561A6E003E3063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TrueskillSwiftTests/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4253AB3624561A6E003E3063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TrueskillSwiftTests/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4253AB4124561AA1003E3063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				INFOPLIST_FILE = TrueskillSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.briceredmond.TrueskillSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4253AB4224561AA1003E3063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				INFOPLIST_FILE = TrueskillSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.briceredmond.TrueskillSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4253AB2824561A6E003E3063 /* Build configuration list for PBXProject "TrueskillSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4253AB3224561A6E003E3063 /* Debug */,
+				4253AB3324561A6E003E3063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4253AB3424561A6E003E3063 /* Build configuration list for PBXNativeTarget "TrueskillSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4253AB3524561A6E003E3063 /* Debug */,
+				4253AB3624561A6E003E3063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4253AB4024561AA1003E3063 /* Build configuration list for PBXNativeTarget "TrueskillSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4253AB4124561AA1003E3063 /* Debug */,
+				4253AB4224561AA1003E3063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4253AB2524561A6E003E3063 /* Project object */;
+}
